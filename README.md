@@ -19,7 +19,7 @@ In the project we are using [WDL](https://openwdl.org/) (Workflow Description La
 If you want to run the whole pipeline make sure you have at least 500GB or more of free space and >=16GB of RAM. 
 All tools are dockerized, for this reason make sure that Docker is installed.
 
-If genetic pipelines is something new for you, it can be useful to watch the Broad Institute [video introduction](https://www.youtube.com/watch?v=aTAQ2eA_iOc&feature=youtu.be&fbclid=IwAR0r2YeeJMEh2XFmat6OIEmbmGWXEvye3UYplvSheYFl7mJ1ijR65G0awLc) which explains WDL, Cromwell and DNA-Seq pipelines.
+If genetic pipelines are something new for you, it can be useful to watch the Broad Institute [video introduction](https://www.youtube.com/watch?v=aTAQ2eA_iOc&feature=youtu.be&fbclid=IwAR0r2YeeJMEh2XFmat6OIEmbmGWXEvye3UYplvSheYFl7mJ1ijR65G0awLc) which explains WDL, Cromwell and DNA-Seq pipelines.
 Even though we do not use Broad-s GATK pipeline and mix our tools a bit differently (for example we use [DeepVariant](https://academic.oup.com/bioinformatics/article/36/24/5582/6064144) for variant calling), the video explains some useful concepts in genomic analysis.
 For the users with only high-school knowledge of biology I would also recommend taking any free biology 101 or genetics 101 course ( https://www.edx.org/course/introduction-to-biology-the-secret-of-life-3 is a good example)
 
